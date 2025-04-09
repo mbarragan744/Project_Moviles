@@ -20,7 +20,6 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -61,6 +60,18 @@ fun RegisterScreen(){
             )
 
             Spacer(modifier = Modifier.height(32.dp))
+            OutlinedTextField(
+                value = "",
+                onValueChange = {} ,
+                modifier = Modifier.fillMaxWidth(),
+                leadingIcon = {
+                    Icon(Icons.Default.Email, contentDescription = null)
+                },
+                label = {
+                    Text("Correo Electronico")
+                }, shape =  RoundedCornerShape(12.dp)
+            )
+            Spacer(modifier = Modifier.height(24.dp))
 
             OutlinedTextField(
                 value = "",
