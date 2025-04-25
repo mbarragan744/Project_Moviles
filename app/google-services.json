@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "590922599412",
+    "project_id": "storeapp-54499",
+    "storage_bucket": "storeapp-54499.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590922599412:android:94ebecd803f900972087a1",
+        "android_client_info": {
+          "package_name": "co.edu.unab.marianabarragan.storeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWR9i-4LkFmw0f_xoFXVI7qZDlJX0vg7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
